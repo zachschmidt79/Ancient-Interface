@@ -43,9 +43,10 @@ Partial Class Form1
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(301, 355)
+        Button1.Location = New Point(273, 320)
+        Button1.Margin = New Padding(3, 2, 3, 2)
         Button1.Name = "Button1"
-        Button1.Size = New Size(201, 44)
+        Button1.Size = New Size(176, 33)
         Button1.TabIndex = 0
         Button1.Text = "OK"
         Button1.UseVisualStyleBackColor = True
@@ -53,27 +54,30 @@ Partial Class Form1
         ' purplesquarebox
         ' 
         purplesquarebox.Font = New Font("Segoe UI", 12.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        purplesquarebox.Location = New Point(170, 250)
+        purplesquarebox.Location = New Point(155, 242)
+        purplesquarebox.Margin = New Padding(3, 2, 3, 2)
         purplesquarebox.Name = "purplesquarebox"
-        purplesquarebox.Size = New Size(57, 34)
+        purplesquarebox.Size = New Size(50, 29)
         purplesquarebox.TabIndex = 1
         purplesquarebox.TextAlign = HorizontalAlignment.Right
         ' 
         ' goldenrhombusbox
         ' 
         goldenrhombusbox.Font = New Font("Segoe UI", 12.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        goldenrhombusbox.Location = New Point(373, 250)
+        goldenrhombusbox.Location = New Point(336, 242)
+        goldenrhombusbox.Margin = New Padding(3, 2, 3, 2)
         goldenrhombusbox.Name = "goldenrhombusbox"
-        goldenrhombusbox.Size = New Size(57, 34)
+        goldenrhombusbox.Size = New Size(50, 29)
         goldenrhombusbox.TabIndex = 2
         goldenrhombusbox.TextAlign = HorizontalAlignment.Right
         ' 
         ' greensquarebox
         ' 
         greensquarebox.Font = New Font("Segoe UI", 12.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        greensquarebox.Location = New Point(578, 250)
+        greensquarebox.Location = New Point(508, 242)
+        greensquarebox.Margin = New Padding(3, 2, 3, 2)
         greensquarebox.Name = "greensquarebox"
-        greensquarebox.Size = New Size(57, 34)
+        greensquarebox.Size = New Size(50, 29)
         greensquarebox.TabIndex = 3
         greensquarebox.TextAlign = HorizontalAlignment.Right
         ' 
@@ -81,7 +85,8 @@ Partial Class Form1
         ' 
         greensquare.BorderStyle = BorderStyle.Fixed3D
         greensquare.Image = CType(resources.GetObject("greensquare.Image"), Image)
-        greensquare.Location = New Point(544, 60)
+        greensquare.Location = New Point(476, 45)
+        greensquare.Margin = New Padding(3, 2, 3, 2)
         greensquare.Name = "greensquare"
         greensquare.Size = New Size(125, 125)
         greensquare.TabIndex = 4
@@ -91,7 +96,8 @@ Partial Class Form1
         ' 
         purplesquare.BorderStyle = BorderStyle.Fixed3D
         purplesquare.Image = CType(resources.GetObject("purplesquare.Image"), Image)
-        purplesquare.Location = New Point(134, 60)
+        purplesquare.Location = New Point(117, 45)
+        purplesquare.Margin = New Padding(3, 2, 3, 2)
         purplesquare.Name = "purplesquare"
         purplesquare.Size = New Size(125, 125)
         purplesquare.TabIndex = 5
@@ -100,7 +106,8 @@ Partial Class Form1
         ' PictureBox3
         ' 
         PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), Image)
-        PictureBox3.Location = New Point(109, 105)
+        PictureBox3.Location = New Point(95, 79)
+        PictureBox3.Margin = New Padding(3, 2, 3, 2)
         PictureBox3.Name = "PictureBox3"
         PictureBox3.Size = New Size(0, 0)
         PictureBox3.TabIndex = 6
@@ -109,25 +116,26 @@ Partial Class Form1
         ' goldenrhombus
         ' 
         goldenrhombus.Image = CType(resources.GetObject("goldenrhombus.Image"), Image)
-        goldenrhombus.Location = New Point(333, 12)
+        goldenrhombus.Location = New Point(291, 11)
+        goldenrhombus.Margin = New Padding(3, 2, 3, 2)
         goldenrhombus.Name = "goldenrhombus"
-        goldenrhombus.Size = New Size(139, 199)
+        goldenrhombus.Size = New Size(148, 208)
         goldenrhombus.TabIndex = 7
         goldenrhombus.TabStop = False
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(301, 402)
+        Label1.Location = New Point(273, 356)
         Label1.Name = "Label1"
-        Label1.Size = New Size(0, 20)
+        Label1.Size = New Size(0, 15)
         Label1.TabIndex = 8
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
+        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
+        ClientSize = New Size(705, 401)
         Controls.Add(Label1)
         Controls.Add(goldenrhombus)
         Controls.Add(PictureBox3)
@@ -137,6 +145,7 @@ Partial Class Form1
         Controls.Add(goldenrhombusbox)
         Controls.Add(purplesquarebox)
         Controls.Add(Button1)
+        Margin = New Padding(3, 2, 3, 2)
         Name = "Form1"
         Text = "Ancient Interface"
         CType(BindingSource1, ComponentModel.ISupportInitialize).EndInit()

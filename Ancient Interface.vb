@@ -8,7 +8,7 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If purplecount = 1 And goldencount = 1 And greencount = 8 Then
-            Label1.Text = "The Crevice has been opened"
+            Label1.Text = "The gate has been opened."
             Me.Refresh()
         Else
             Close()
